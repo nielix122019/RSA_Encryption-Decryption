@@ -20,7 +20,7 @@ namespace RSAEncryptionandDecryption
                 {
                     value = i;
                 }
-                Console.WriteLine("Length Text: " + value);
+
                 return value;
             }
 
@@ -91,17 +91,18 @@ namespace RSAEncryptionandDecryption
                     while (true)
                     {
                         Console.Write("---------------------------------------------------------------------------------------------------------------\n"
-                                + "Enter the following and choose the correct option below\n"
-                                + "1. Create a new message\n"
-                                + "2. Exit\n"
+                                + "\t\t\tEnter the following and choose the correct option below\n"
+                                + "\t\t\t1. Create a new message\n"
+                                + "\t\t\t2. Exit\n"
                                 + "---------------------------------------------------------------------------------------------------------------\n");
-                        int chooseNumber = Convert.ToInt32(Console.ReadLine());
-                        if (chooseNumber == 1)
+                        Console.Write("Enter a number: ");
+                        string chooseNumber = Console.ReadLine();
+                        if (chooseNumber == "1")
                         {
                             RSAEncryption rsa = new RSAEncryption();
                             string cypher = string.Empty;
 
-                            Console.WriteLine("Enter your message:");
+                            Console.WriteLine("\nEnter your message:");
                             var text = Console.ReadLine();
                             int newvalue = rsa.inputLength(text);
 
@@ -120,26 +121,28 @@ namespace RSAEncryptionandDecryption
 
 
                             Console.WriteLine("Press any key to Decrypt Message");
+
                             Console.ReadLine();
 
                             var plaintext = rsa.Decrypt(cypher);
 
-                            Console.WriteLine($"Decrypt Message: {plaintext}");
+                            Console.WriteLine($"Decrypt Message: {plaintext} \n\n");
                         }
-                        else if (chooseNumber == 2)
+                        else if (chooseNumber == "2")
                         {
                             Console.WriteLine("Have a nice day!!");
                             break;
                         }
                         else
                         {
-                            Console.WriteLine("Correct format: Example: 1 or 2");
+                            Console.WriteLine("\nInvalid input please try again!!\n");
                         }
                     }
                 }
                 catch (Exception m)
                 {
-                    Console.WriteLine(m.Message + " Contact the developer or you can private message me on my FB: www.faceboo.com/1c4ctub");
+                    Console.WriteLine(m.Message + "Contact the developer or you can private message me on my FB: www.faceboo.com/1c4ctub");
+                    
                 }
 
             }

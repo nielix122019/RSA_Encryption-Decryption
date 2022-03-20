@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Neil\\source\\repos\\RSA_EncryptionAndDecryption_Application\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption.csproj": {}
+    "C:\\Users\\Neil\\source\\repos\\RSA_Encryption-Decryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Neil\\source\\repos\\RSA_EncryptionAndDecryption_Application\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption.csproj": {
+    "C:\\Users\\Neil\\source\\repos\\RSA_Encryption-Decryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Neil\\source\\repos\\RSA_EncryptionAndDecryption_Application\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption.csproj",
+        "projectUniqueName": "C:\\Users\\Neil\\source\\repos\\RSA_Encryption-Decryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption.csproj",
         "projectName": "RSAEncryptionandDecryption",
-        "projectPath": "C:\\Users\\Neil\\source\\repos\\RSA_EncryptionAndDecryption_Application\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption.csproj",
+        "projectPath": "C:\\Users\\Neil\\source\\repos\\RSA_Encryption-Decryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption.csproj",
         "packagesPath": "C:\\Users\\Neil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Neil\\source\\repos\\RSA_EncryptionAndDecryption_Application\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\obj\\",
+        "outputPath": "C:\\Users\\Neil\\source\\repos\\RSA_Encryption-Decryption\\RSAEncryptionandDecryption\\RSAEncryptionandDecryption\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Neil\\AppData\\Roaming\\NuGet\\NuGet.Config",
